@@ -60,11 +60,10 @@
       <a-entity id="cameraRig">
         <a-entity camera wasd-controls look-controls></a-entity>
         <!-- hand controls -->
-        <a-entity id="leftHand" mixin="teleport" vive-controls="hand: left"></a-entity>
-        <a-entity id="rightHand" mixin="teleport" vive-controls="hand: right"></a-entity>
+        <a-entity id="rightHand" mixin="teleport" daydream-controls="hand: right"></a-entity>
       </a-entity>
 
-      <a-entity id="rightHand" mixin="teleport" vive-controls="hand: right"></a-entity>
+      <a-entity id="rightHand" mixin="teleport" daydream-controls="hand: right"></a-entity>
       </a-entity>
     </a-scene>
   </body>
